@@ -1,0 +1,5 @@
+alph = input()
+s = int(input()) % len(alph)
+print(alph[s:] + alph[:s])
+print(alph)
+print(alph[len(alph) - s:] + alph[:len(alph) - s])
